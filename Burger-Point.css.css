@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;  
+    background: url(Black.png); 
+    background-size: cover; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+nav{
+    width: 100%;
+    height: 10vh; 
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: none;  
+}
+.logo{
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-shadow: none;
+}
+.container .logo .logo-icon{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 35px 30px;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: rgb(213, 123, 20);
+}
+.icons i{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;  
+    margin-left: 15px;  
+}
+.icons i:hover{
+    color:  rgb(213, 123, 20);   
+}
+.burger img {
+    margin-left:58%;
+    margin-top: 1%; 
+    width: 600px;
+    height: 500px;   
+}
+.explore a{
+    position: absolute;
+    bottom: 4%;
+    left: 60%;
+    transform: translateX(-50%);
+    text-align: center;
+    letter-spacing: 4px;
+    background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+.txt{
+    color: rgb(255, 255, 255);
+    max-width: 650px;
+    position: absolute;
+    top: 60%;
+    left:25%;
+    transform: translate(-40%,-50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;    
+}
+.first{
+    letter-spacing: 5px; 
+    font-size: 4em;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+}
+.second{
+    letter-spacing: 8px; 
+    font-size: 2.2em;  
+    color: yellow;
+}
+.word{
+    color: yellow;
+}
+.txt a{
+    background: #f19a0e;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    letter-spacing: 4px;
+    transition: 0.01s;
+    border-radius: 6px;   
+    margin-left: 2px;  
+}
+.txt a:hover{
+    background: transparent;
+    border:1px solid yellow ; 
+}
+.catagory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-left: -60px;
+}
+.catagory .list-items{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-top: 100px;   
+}
+.catagory .list-items .card-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+}
+.catagory .card-list .card{
+    width: 200px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    background: #ffffff;
+    outline: 2px solid #faad96;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.catagory .card-list .card img{
+    width: 100px;
+    height: auto;
+    bottom: 140px;
+    left: 50px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow: 0 20px 20px #3d3c3b;
+    border-radius: 50%;
+}
+.catagory .card-list .card .food-title{
+    padding: 40px 0 10px;
+    color: black;
+}
+.catagory .card-list .card .food-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia;  
+}
+.catagory .card .desc-food p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.catagory .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.catagory .card .price span{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.plus-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+footer {
+    margin-bottom: 0;
+    padding-bottom: 10px; 
+}
+.copyright{
+    display: flex;
+    color: black;
+    font-size: xx-small;
+    align-items: center;
+}
